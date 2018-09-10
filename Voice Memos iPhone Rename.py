@@ -4,6 +4,7 @@ this script #recordings #voice memos"""
 import codecs
 f = codecs.open("AssetManifest.plist", "r", "utf-8")
 xml = f.read()
+# f.close()
 d = {}
 import re, os
 xml = xml.split("\n")
